@@ -1,14 +1,18 @@
 {
   "expo": {
     "name": "Docto",
+    "description":"Docto App - Search for Doctors near you.",
     "slug": "Docto",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "facebookScheme" :"fb1085464265272950",
+    "facebookAppId":"1085464265272950",
+    "facebookDisplayName":"DoctoApp",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#5F82E2"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,9 +21,19 @@
       "**/*"
     ],
     "ios": {
+       "bundleIdentifier": "com.altsaas.docto",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.altsaas.docto",
+      "permissions": [],
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAKL5b6WbvtUMfxrocrpNzj1IMj7NrPgV0"
+        }
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
