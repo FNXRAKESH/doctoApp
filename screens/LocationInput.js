@@ -32,7 +32,7 @@ const LocationInput = (props) => {
       enablePoweredByContainer={false}
       query={{
         // available options: https://developers.google.com/places/web-service/autocomplete
-        key: 'AIzaSyAKL5b6WbvtUMfxrocrpNzj1IMj7NrPgV0',
+        key: 'Googel API key 2',
         language: 'en' // language of the results
       }}
       styles={{
